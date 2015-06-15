@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:keepScreenOn="true"
+    tools:context="de.holoscope.activity.MainActivity">
+
+        <TextView
+            android:id="@+id/connStatusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    <!--android:text="NOT CONNECTED TO HOLOSCOPE"-->
+
+
+<TextView
+    android:id="@+id/connDeviceNameTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<TextView
+    android:id="@+id/connMACAddressTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<Button
+    android:id="@+id/connectBluetooth"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Connect to Holoscope" />
+
+
+
+<Button
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/setParameters"
+android:text="Set Parameters" />
+
+<Button
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/initMicroscope"
+android:text="Initialize Microscope" />
+
+<Button
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/startOpenCV"
+android:text="Acquire OpenCV" />
+
+<Button
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/acquirePicture"
+android:text="Acquire Picture" />
+
+<Button
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/viewData"
+android:text="View Data" />
+
+<Button
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/estimateShift"
+android:text="Estimate Shift" />
+
+<Button
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/computeHologram"
+android:text="Reconstruct Hologram" />
+
+
+<Button
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/viewHologram"
+android:text="View Hologram" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewPresentation"
+        android:text="View Presentation" />
+
+
+    <TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/textview"
+/>
+
+
+
+</LinearLayout>

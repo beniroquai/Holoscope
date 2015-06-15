@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.holoscope" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front.autofocus" android:required="false"/>
+
+    <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+
+    <application
+        android:name=".activity.GlobalApplicationClass"
+        android:allowBackup="true"
+        android:icon="@drawable/microscope_icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <activity
+            android:name=".activity.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="de.holoscope.bluetooth.BluetoothDeviceListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="de.holoscope.activity.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.holoscope.activity.ZoomableImageActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.holoscope.activity.SetParametersActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.serenegiant.usbcameratest5.MainActivityWebcam"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.holoscope.activity.HologramActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.holoscope.activity.SuperresolutionActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.presentation.PresentationActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.holoscope.tasks.InitMicroscopeTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.acquisition.CameraActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="de.acquisition.AcquireActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="de.presentation.MirrorFragmentActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="de.presentation.MirrorPresentationActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="de.presentation.NestedFragmentActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="de.presentation.PresentationMain"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="de.holoscope.miracast.MiracastActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <service android:name="de.presentation.SlideshowService"/>
+        <activity
+            android:name="de.holoscope.activity.PhaseActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <service android:name="de.presentation.SlideshowService"/>
+    </application>
+
+</manifest>

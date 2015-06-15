@@ -1,0 +1,1 @@
+include ':holoscope', ':opencv:app', ':presentation'

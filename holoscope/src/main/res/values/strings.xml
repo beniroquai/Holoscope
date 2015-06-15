@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Holoscope</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="refocus">Refocus</string>
+    <string name="darkfield">Darkfield</string>
+    <string name="phase_contrast">Differential Phase Contrast</string>
+    <string name="select">Select USB Web Camera</string>
+    <string name="camera">Camera</string>
+    <string name="refresh">Refresh</string>
+    <string name="no_device">No USB camera found</string>
+    <string name="init_Button">Initiate</string>
+</resources>

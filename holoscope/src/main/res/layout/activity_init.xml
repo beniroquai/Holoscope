@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:id="@+id/sendInitButton"
+        android:text="Send Initializiation"
+        android:onClick="sendINIT"/>
+
+ <TableLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_horizontal">
+
+ <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="6dp" >
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned|numberDecimal"
+            android:ems="8"
+            android:id="@+id/setZPos"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:id="@+id/sendZPosButton"
+            android:text="Send Z Position"
+            android:onClick="sendZPos"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="6dp" >
+
+        <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="8"
+            android:id="@+id/setLEDNumber"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:id="@+id/sendLEDButton"
+            android:text="Send LED Number"
+            android:onClick="sendLED"/>
+    </TableRow>
+
+     <TableRow
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_margin="6dp" >
+
+     <TextView
+         android:id="@+id/acquireStatusTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="left"
+         android:paddingLeft="10dp"
+         android:text="Small Text"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+    </TableRow>
+
+ </TableLayout>
+
+</LinearLayout>

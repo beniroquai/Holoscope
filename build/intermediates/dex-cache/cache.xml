@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\Android3D\android\refocusing\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-698f9e7179e3fde94c6a0d0998c2e81a6bdd81b7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\Android3D\android\refocusing\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\Android3D\android\refocusing\build\intermediates\pre-dexed\debug\classes-0155f53aaee57eaa6c2a8c6f4ee2defdb5feced9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\Android3D\android\refocusing\src\main\libs\AmarinoLibrary_v0_55.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6e529684291e11458a75a22b4499a54b5280321c">
+        <dex dex="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\Android3D\android\refocusing\build\intermediates\pre-dexed\debug\AmarinoLibrary_v0_55-f6df065cf1df38bbb605d184591366014d96b3fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\Android3D\android\refocusing\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\Android3D\android\refocusing\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-a4935c5cc044cabd57d34baaa4e1a33e1a5e1182.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\HoloscopeSony\android\holoscope\build\intermediates\exploded-aar\android.opencv\app\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8b8e094b13bb525b6422b1b43833c81e32c5aec5">
+        <dex dex="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\HoloscopeSony\android\holoscope\build\intermediates\pre-dexed\debug\classes-6227553fb2632c63f02fd5b47d37180c66c3f411.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\HoloscopeSony\android\holoscope\build\intermediates\exploded-aar\com.commonsware.cwac\layouts\0.4.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c15966b74d53a3b01d7fc3065f0730dbea397ee7">
+        <dex dex="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\HoloscopeSony\android\holoscope\build\intermediates\pre-dexed\debug\classes-7803f757cb95c5dfa015308793bef608ab32f49b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\Android3D\android\refocusing\build\intermediates\exploded-aar\android.opencv\app\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e42994511a6a8e3fe10d1da3d18a9b108414a5ed">
+        <dex dex="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\Android3D\android\refocusing\build\intermediates\pre-dexed\debug\classes-03c78561a07165ca42641ca76c070c666a4f0f72.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\HoloscopeSony\android\holoscope\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\HoloscopeSony\android\holoscope\build\intermediates\pre-dexed\debug\classes-6725de7b4eab97efb4f1afb9dc0cd78f742602f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\HoloscopeSony\android\holoscope\build\intermediates\exploded-aar\android\presentation\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="39a3e5f2e23af3dc875214e44c5fabe218774b01">
+        <dex dex="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\HoloscopeSony\android\holoscope\build\intermediates\pre-dexed\debug\classes-05b92e52230f62fad6ad564c6646580179ce1efd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\Android3D\android\refocusing\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\Android3D\android\refocusing\build\intermediates\pre-dexed\debug\classes-3dda644e4fa6983e3e5287f46d0161fa4df424c9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\HoloscopeSony\android\holoscope\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\HoloscopeSony\android\holoscope\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-63bf623f708559fb83fc14888e209592ac7f2f52.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\HoloscopeSony\android\holoscope\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="C:\Users\Bene\Dropbox\Dokumente\FHKoeln\Projekt_OE\Android\HoloscopeSony\android\holoscope\build\intermediates\pre-dexed\debug\classes-a35e9e11b8d7a57ee1d7184ed01e37c80d94ff26.jar" />
+    </item>
+
+</items>
